@@ -1,0 +1,16 @@
+Name:                textdist
+Version:             0.0.1
+Cabal-Version:       >= 1.2
+Category:            Algorithms
+Synopsis:            Utility to calculate the edit distance (Levenshtein) between two files
+License:             GPL
+License-File:        LICENSE
+Extra-Source-Files:  README.markdown
+Author:              Alan Falloon
+Maintainer:          alan.falloon@gmail.com
+Homepage:            http://github.com/alanfalloon/textdist
+Build-Type:          Simple
+
+Executable textdist
+        Main-Is:                Main.hs
+        Build-Depends:          base, edit-distance >= 0.1.2
